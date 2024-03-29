@@ -27,7 +27,9 @@
 			bottom: 0;
 			left: 50%;
 			transform: translateX(-50%);
-			transition: opacity 0.15s var(--transition), width 0.15s var(--transition);
+			transition:
+				opacity 0.15s var(--transition),
+				width 0.15s var(--transition);
 			margin-bottom: 1px;
 		}
 		&:hover {
