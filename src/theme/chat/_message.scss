@@ -26,8 +26,9 @@
 	.operations__62559 {
 		padding: 0px 12px 12px 12px;//8px 16px 16px 16px;
 	}
-	  //Revisar replying_d7b6ad
-	.mentioned_fa6fd2, .replying_d7b6ad {
+	
+	//Change accent color to replies and not only to mentions
+	.mentioned_fa6fd2, .replying__38514 {
 		background: rgb(var(--chat-mention-colour), 0.05);
 		&::before {
 			background: rgb(var(--chat-mention-colour));
