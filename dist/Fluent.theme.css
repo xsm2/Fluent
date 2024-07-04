@@ -16,7 +16,7 @@
   /*--accent: 255, 119, 0;*/ /*orange*/
   /*--accent: 255, 0, 0;*/ /*red*/
   /*--accent: 114, 137, 218;/*discord purple*/
-  --accent: --os-accent-color;
+  --accent: var(--os-accent-color);
   --channels-width: 280px; /* The size of the server channel/dms list | Default: 300px | Fork default: 280px*/
   --members-width: 255px; /* The size of the members list | Default: 280px | Fork default: 255px*/
   --dark-background-hue: 0; /* The hue of the background colour. | Options: 0 to 360 | Default: 0 */
