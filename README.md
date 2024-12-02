@@ -29,4 +29,4 @@ This is a little fork by me, xsm2, to fix and modify a few things for my persona
 - Moved Minimize, Maximize and Close buttons to the Toolbar (Thanks to [doggybootsy](https://github.com/doggybootsy/FluentCord) for the ""inspiration""(aka the code))
 - Modified to be scaled for 4k screens with 150% scaling in Windows (Some elements are bigger and there are a few scaling "bug fixes"). Not tested in other resolutions or scaling combinations.
 - Themed less used parts of discord like the library
-- Reverted the unified chat textbox. I really liked it, but it was too inconsistent as it only really worked well on chats and the friend page (when the list was not empty). If thinks like forums, the library, the discovery page,... getr adapted I will probably restore it.
+- Reverted the unified chat textbox. I really liked it, but it was too inconsistent as it only really worked well on chats and the friend page (when the list was not empty). If thinks like forums, the library, the discovery page,... get adapted I will probably restore it.
