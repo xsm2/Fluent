@@ -32,45 +32,46 @@
 		border-radius: var(--rounded);
 		/*&:focus-within {
 			background: var(--bg-content-alt);
-			.inner_d0696b::before {
+			.inner_bdf0de::before {
 				height: 2px;
 				background: var(--accent);
 			}
 		}*/
 	}
 	//CAMBIO
-	.inner_d0696b.sansAttachButton__5f863{
-		.textArea_a86690.textAreaSlate__8578d.slateContainer__1d1fd {
+	.inner_bdf0de.sansAttachButton_bdf0de{
+		.textArea_bdf0de.textAreaSlate_bdf0de.slateContainer_e52116 {
 			margin: 0;
 			background: var(--bg-alt);
 			position: relative;
 			border-radius: var(--rounded);
 			&:focus-within {
 				background: var(--bg-content-alt);
-				&::before {//.inner-NQg18Y::before {
+				&::before {
 					height: 2px;
 					background: rgb(var(--accent));
 				}
 			}
-			&::before {//.inner__9fd0b::before {
+			&::before {
 				content: "";
 				width: calc(100% - 2px);
 				height: 1px;
 				border-radius: 8px;
 				background: var(--textbox-underline);
 				bottom: 0;
+				top: unset;
 				left: 1px;
 				position: absolute;
+				display: block;
 			}
 			& > div {
 				padding-left: 5px;
-				.placeholder_dec8c7.slateTextArea_b19976.fontSize16Padding_bcbeae {
+				.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_bdf0de {
 					padding-left: 5px;
 				}
 			}
 		}
 	}
-	//
 
 	.sansAttachButton_d0696b:has(.attachWrapper_f298d4) {
 		padding-left: 0;
@@ -91,7 +92,13 @@
 			background: var(--interactive-active);
 		}
 	}
-	.scrollableContainer_d0696b {
+	.floatingBars_bdf0de {
+		display: none;
+	}
+	.channelAppLauncher_df39bd {
+		display: var(--fluent-chatbox-app-button, none);
+	}
+	.scrollableContainer_bdf0de {
 		background: transparent;
 		padding-right: 8px;
 		border-radius: var(--rounded);
@@ -165,4 +172,10 @@
 			* {height: 24px !important;}
 		}
 	}
+}
+
+
+// Remove halloween stuff
+.decorativeLayer_efde15.decorativeLayerActive_efde15 {
+	display: none;
 }
