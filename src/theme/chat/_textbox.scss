@@ -40,6 +40,7 @@
 	}
 	//CAMBIO
 	.inner_bdf0de.sansAttachButton_bdf0de{
+		padding: 0;
 		.textArea_bdf0de.textAreaSlate_bdf0de.slateContainer_e52116 {
 			margin: 0;
 			background: var(--bg-alt);
@@ -49,7 +50,7 @@
 				background: var(--bg-content-alt);
 				&::before {
 					height: 2px;
-					background: rgb(var(--accent));
+					background: var(--accent) !important;
 				}
 			}
 			&::before {
