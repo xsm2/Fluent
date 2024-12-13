@@ -18,7 +18,16 @@
 		}
 	}
 
+	.gradient_d71945 {
+		background: linear-gradient(to top, var(--bg-main) 0, rgba(0, 0, 0, 0) 100%);
+		top: -8px;
+	}
+	.footer_d71945 {
+		background: transparent;
+	}
+	
 	div[aria-hidden="true"][style="height: 84px;"]{
 		display:none;
 	  }
+	
 }
