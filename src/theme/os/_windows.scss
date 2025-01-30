@@ -1,25 +1,25 @@
 .platform-win #app-mount /*.typeWindows_a934d8 + div*/ {
-	.layer_d4b6c5 {
+	.layer__960e4 {
 		top: 0;
 		padding-top: 0;
-		&.baseLayer_d4b6c5 {
+		&.baseLayer__960e4 {
 			//padding-top: calc(var(--win-btn-height) + 4px) !important;
 		}
 	}
-	.standardSidebarView_c25c6d {
+	.standardSidebarView__23e6b {
 		top: 0;
 	}
 	
 }
 
-.typeWindows_a934d8 {
+.typeWindows__421ed {
 	//height: var(--win-btn-height);
     $withd-title: calc(82px + var(--channels-width));
 	margin-left: #{$withd-title};
 	max-width: calc(100% - #{$withd-title});
     margin-top: 0px;
     height: calc(var(--win-btn-height) + 18px);
-	z-index: 2;
+	z-index: 101;
 	background: transparent;
 	position: fixed;
 	width: calc(100% - 72px - var(--server-size));
@@ -27,11 +27,11 @@
 	pointer-events: none;
 	right: 0;
 }
-.winButton_a934d8 {
+.winButton__421ed {
 	height: calc(var(--win-btn-height) + 21px); //calc(var(--win-btn-height) + 4px);
 	width: var(--win-btn-width);
 	cursor: var(--cursor);
 }
-.wordmarkWindows_a934d8 {
+.wordmarkWindows__421ed {
 	display: none;
 }
